@@ -1,0 +1,77 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{80D6B122-0ABB-4D8E-9014-4F147904FD42}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ejercisiosBasicos</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Estructuras de Datos\GenericQueue.cs" />
+    <Compile Include="Estructuras de Datos\GenericStack.cs" />
+    <Compile Include="Estructuras de Datos\IQueueStructure.cs" />
+    <Compile Include="Estructuras de Datos\IStackStructure.cs" />
+    <Compile Include="GenericArrayUtility.cs" />
+    <Compile Include="Herencia\Asignatura.cs" />
+    <Compile Include="Herencia\Empleado.cs" />
+    <Compile Include="Herencia\ListDynamicPersona.cs" />
+    <Compile Include="Herencia\Operator.cs" />
+    <Compile Include="LogicExercises\BasicOperation.cs" />
+    <Compile Include="CandyMachine\Candy.cs" />
+    <Compile Include="CandyMachine\CandyMachine.cs" />
+    <Compile Include="LogicExercises\CatGame.cs" />
+    <Compile Include="DigitalClock.cs" />
+    <Compile Include="EnumUtility.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="LogicExercises\FillArrayUtility.cs" />
+    <Compile Include="Herencia\Estudiante.cs" />
+    <Compile Include="Traslator\TraslateNumbToWord.cs" />
+    <Compile Include="Herencia\ListPersona.cs" />
+    <Compile Include="Herencia\Persona.cs" />
+    <Compile Include="LogicExercises\PrintArrayUtility.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="LogicExercises\SortArrayUtility.cs" />
+    <Compile Include="ToolBoxUtility.cs" />
+    <Compile Include="Traslator\TraslateNumbToRoman.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
