@@ -491,11 +491,6 @@ namespace ejercisiosBasicos
 
                         case 17:
 
-                            DigitalClock.SetTimer();
-                            break;
-
-                        case 18:
-
                             try
                             {
                                 do
@@ -518,7 +513,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 19:
+                        case 18:
 
                             try
                             {
@@ -541,7 +536,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 20:
+                        case 19:
 
                             try
                             {
@@ -572,7 +567,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 21:
+                        case 20:
 
                             try
                             {
@@ -593,7 +588,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 22:
+                        case 21:
 
                             try
                             {
@@ -624,7 +619,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 23:
+                        case 22:
 
                             try
                             {
@@ -686,7 +681,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 24:
+                        case 23:
                             //Un numero es primo solo si es divisible por si mismo y por uno
                             int num = 0, fact = 0;
 
@@ -733,7 +728,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 25: //#25/26/27/28/40/41
+                        case 24: //#25/26/27/40/41
 
                             try
                             {
@@ -915,7 +910,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 29:
+                        case 25:
 
                             try
                             {
@@ -936,7 +931,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 30:
+                        case 26:
 
                             try
                             {
@@ -959,7 +954,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 31:
+                        case 27:
 
                             try
                             {
@@ -994,7 +989,7 @@ namespace ejercisiosBasicos
                             }
                             break;
 
-                        case 32:
+                        case 28:
 
                             try
                             {
@@ -1026,7 +1021,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 33:
+                        case 29:
 
                             try
                             {
@@ -1047,7 +1042,7 @@ namespace ejercisiosBasicos
 
                             break;
 
-                        case 34:
+                        case 30:
 
                             try
                             {
@@ -1102,7 +1097,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 35:
+                        case 31:
 
                             try
                             {
@@ -1137,7 +1132,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 36:
+                        case 32:
 
                             try
                             {
@@ -1165,7 +1160,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 37:
+                        case 33:
 
                             try
                             {
@@ -1210,7 +1205,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 38:
+                        case 34:
 
                             try
                             {
@@ -1230,7 +1225,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 39:
+                        case 35:
 
                             try
                             {
@@ -1290,16 +1285,16 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 40:
+                        case 36:
 
                             Console.WriteLine("ESTE EJERCISIO HA SIDO FUCIONADO CON EL EJERCISIO #25");
 
                             break;
-                        case 41:
+                        case 37:
                             Console.WriteLine("ESTE EJERCISIO HA SIDO FUCIONADO CON EL EJERCISIO #25");
 
                             break;
-                        case 42:
+                        case 38:
 
                             try
                             {
@@ -1337,7 +1332,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 43:
+                        case 39:
 
                             try
                             {
@@ -1360,7 +1355,7 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 44:
+                        case 40:
 
                             try
                             {
@@ -1395,10 +1390,8 @@ namespace ejercisiosBasicos
                             }
 
                             break;
-                        case 45:
-                            Console.WriteLine("EJERCISIO NO DISPONIBLE");
-                            break;
-                        case 46:
+
+                        case 41:
 
                             //METODO QUICK SORT(ES EL METODO DE ORDENAMIENTO MAS RAPIDO JAMAS CREADO!!!)
                             //OJO ES DE ESPECIAL IMPORTANCIA SELECCIONAR CORRECTAMENTE EL PIVOTE!!!
